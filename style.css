@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+pre{
+    font-family: monospace;
+    font-size: 10px;
+}
+
+ .donut-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+ }
+
+ .título {
+    position: absolute;
+    top: 10px; /* Define a distância do topo */
+    left: 10px; /* Define a distância da esquerda */
+    font-family: monospace;
+    font-size: 40px;
+  }
+
+  .texto {
+    position: absolute;
+    bottom: 10px;
+    left: 10px; /* Define a distância da esquerda */
+    font-family: monospace;
+    font-size: 10px;
+  }
